@@ -55,6 +55,7 @@ nav a:hover,a:focus{
     left: 0px;
 }
 footer{
+    clear: both;
     border-top: 35px solid transparent;
     border-image: linear-gradient(to bottom, skyblue 0%, #3e44ea 100%) 1;
     padding-top: 10px;
