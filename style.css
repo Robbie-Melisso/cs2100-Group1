@@ -1,3 +1,28 @@
+body{
+    background-color: #b0c4de;
+}
+#wrapper{
+    background-color: #87ceeb;
+}
+nav{
+    background-color: #20b2aa;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+/* make for the desktop view, the nav links are in 4 columns, change for mobile view */
+nav ul{
+    list-style-type:none;
+    columns: 4; 
+    padding-inline: 2rem;
+}
+nav a{
+    color:#1e0606;
+    text-decoration: none;
+}
+nav a:hover,a:focus{
+    color: white;
+    text-decoration: underline;
+}
 .Skip{
     /*hide link off screen until focused*/
     position: absolute;
