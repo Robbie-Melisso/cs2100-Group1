@@ -85,6 +85,13 @@ footer #copyright{
     clear: both;
     text-align: center;
 }
+.responsive-grid{
+    display: grid;
+    list-style: none;
+    padding: 10px;
+    margin: 2px;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+}
 section{
     float: left;
     width: 30%;
