@@ -54,11 +54,6 @@ nav a:hover,a:focus{
     top: 0px;
     left: 0px;
 }
-section{
-    float: left;
-    width: 30%;
-    padding-inline: 1rem;
-}
 footer{
     border-top: 35px solid transparent;
     border-image: linear-gradient(to bottom, skyblue 0%, #3e44ea 100%) 1;
@@ -89,4 +84,40 @@ footer #copyright{
     font-style: italic;
     clear: both;
     text-align: center;
+}
+section{
+    float: left;
+    width: 30%;
+    padding-inline: 1rem;
+}
+form{
+    background-color: #20b2aa;
+    padding: 30px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+}
+input{
+    color: black;
+}
+textarea{
+    color: black;
+}input[type="date"] {
+    appearance: auto; /* Restore native look */
+    -webkit-appearance: auto;
+    color: initial;
+    background-color: white;
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+    appearance: auto; /* Restore native look */
+    -webkit-appearance: auto;
+    z-index: 100;
+    color: initial;
+    color: black;
+    background-color: white;
+  display: block;
+  opacity: 1;
+  cursor: pointer;
 }

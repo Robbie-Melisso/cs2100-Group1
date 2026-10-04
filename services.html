@@ -7,40 +7,42 @@
 </head>
 
   <body>
-    <a href="#sitemap" class="Skip" id="skip-sitemap">Skip to site map</a>
-    <a href="#main" class="Skip" id="skip-main">Skip to main content</a>
+    <a href="#sitemap" class="Skip" id="skip-sitemap" tabindex="1">Skip to site map</a>
+    <a href="#main" class="Skip" id="skip-main" tabindex="2">Skip to main content</a>
     <div id="wrapper">
-    <header><h1><a href="index.html"> A Dog's Life </a></h1></header>
-    <nav>
+    <header><h1><a href="index.html" aria-current="page" tabindex="-1"> A Dog's Life </a></h1></header>
+    <nav tabindex="3">
       <ul>
-        <li><a href="index.html"> Home </a></li>
-         <li><a href="services.html"> Services </a></li>
-         <li><a href="contact.html"> Contact Us </a></li>
-         <li><a href="book.html"> Book Now </a></li>
+        <li><a href="index.html" aria-current="page"> Home </a></li>
+        <li><a href="services.html"> Services </a></li>
+        <li><a href="contact.html"> Contact Us </a></li>
+        <li><a href="book.html"> Book Now </a></li>
       </ul>
     </nav>
-
-    
+    <main id="main">
+      </main>    
   <footer>
+      <div>
         <section>
-            <p> 123 Main Street <br> Carrollton, Georgia </p>
+            <p tabindex="-1"> 123 Main Street <br> Carrollton, Georgia </p>
         </section>
         <section>
-            <p> 111-222-3333 <br> adogslife@example.com </p>
+            <p tabindex="-1"> 111-222-3333 <br> adogslife@example.com </p>
         </section>
         <section>
-            <p> Mon-Fri <br> 9:00am - 7:00pm <br> Sat <br> 8:00am - 8:00pm </p>
+            <p tabindex="0"> Mon- Fri <br> 9:00am - 7:00pm <br> Sat <br> 8:00am - 8:00pm </p>
         </section>
+      </div>
         <br>
-        <ul id="sitemap">
-          <li><a href="index.html">home</a></li>
+        <ul id="sitemap" aria-label="site navigation map">
+          <li><a href="index.html" aria-current="page">home</a></li>
           <li><a href="services.html">services</a></li>
           <li><a href="contact.html">contact us</a></li>
           <li><a href="book.html">book now</a></li>
-          <li><a href="mailto:adogslife@example.com">email us</a></li>
-          <li><a href="tel:111-222-3333">call at 111-222-3333</a></li>
           <li><a href="https://www.google.com/maps?q=123+Main+Street,+Carrollton,+Georgia" target="_blank">Directions</a></li>
-
+          <li><a href="tel:111-222-3333">call at 111-222-3333</a></li>
+          <li><a href="mailto:adogslife@example.com">email us</a></li>
+          <!--need apply here link-->
         </ul>
         <br>
         <p id="copyright"> Copyright &copy; 2026 A Dog's Life </p>
