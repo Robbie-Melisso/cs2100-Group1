@@ -7,11 +7,11 @@
 </head>
 
   <body>
-    <a href="#sitemap" class="Skip" id="skip-sitemap">Skip to site map</a>
-    <a href="#main" class="Skip" id="skip-main">Skip to main content</a>
+    <a href="#sitemap" class="Skip" id="skip-sitemap" tabindex="1">Skip to site map</a>
+    <a href="#main" class="Skip" id="skip-main" tabindex="2">Skip to main content</a>
     <div id="wrapper">
-    <header><h1><a href="index.html"> A Dog's Life </a></h1></header>
-    <nav aria-label="Navigation">
+    <header><h1><a href="index.html" aria-current="page" tabindex="-1"> A Dog's Life </a></h1></header>
+    <nav tabindex="3">
       <ul>
         <li><a href="index.html" aria-current="page"> Home </a></li>
         <li><a href="services.html"> Services </a></li>
@@ -20,43 +20,45 @@
       </ul>
     </nav>
     <main id="main">
-    <h2> About Us: </h2><br>
-    <p> When our company was founded, our mission was to provide accessible and reliable service to all dog 
+    <h2 tabindex="0" role="presentation"> About Us: </h2><br>
+    <p tabindex="0"> When our company was founded, our mission was to provide accessible and reliable service to all dog 
       owners in the West Georgia area. In light of this, we are proud to say that we have made good on that 
       mission for 13 years now. We have spent countless hours caring for and looking after our clients’ 
       best friends, and will continue to spend countless more well into the future. If you are a dog owner 
       looking for grooming, sitting, or training services, then you have come to the right place. 
       We would be happy if you could join us.</p><br><br>
 
-    <h2> Offered Services: </h2><br>
-     <ul>
+    <h2 tabindex="0"> Offered Services: </h2><br>
+     <ul tabindex="0">
        <li><h3> Grooming </h3></li>
        <li><h3> Pet Sitting </h3></li>
        <li><h3> Training </h3></li>
      </ul>
 
-    <h2> Reviews: </h2>
-    <h3> John Blow: </h3>
-    <p> I brought my Golden Retriever for training after he destroyed the living room. After only three lessons, 
+    <h2 tabindex="0"> Reviews: </h2>
+    <h3 tabindex="0"> John Blow: </h3>
+    <p tabindex="0"> I brought my Golden Retriever for training after he destroyed the living room. After only three lessons, 
       not only has Rex never harmed the living room again, he's been the most obedient dog anyone could ask for!</p>
-    <h3> Jane Doe: </h3>
-    <p> I dropped my Corgi off for a cleaning after she decided to roll around in some mud. 
+    <h3 tabindex="0"> Jane Doe: </h3>
+    <p tabindex="0"> I dropped my Corgi off for a cleaning after she decided to roll around in some mud. 
       It took less than an hour for the folks at A Dog’s Life to get her cleaned up better than I’ve ever seen her. </p>
-    <h3> Jack Smith: </h3>
+    <h3 tabindex="0"> Jack Smith: </h3>
     <p> I had to go out of town on a business trip for a week. Unfortunately, the hotel we were staying at doesn’t allow pets, so I had to find a sitter for my Great Dane, Scooby. 
       Luckily, that’s when I heard about A Dog’s Life. They took great care of Scooby while I was gone, no matter how wild he acted. If I ever need someone to watch Scooby for me again, 
       I know exactly who I’ll be going to.</p>
       </main>
     <footer>
+      <div>
         <section>
-            <p> 123 Main Street <br> Carrollton, Georgia </p>
+            <p tabindex="0"> 123 Main Street <br> Carrollton, Georgia </p>
         </section>
         <section>
-            <p> 111-222-3333 <br> adogslife@example.com </p>
+            <p tabindex="0"> 111-222-3333 <br> adogslife@example.com </p>
         </section>
         <section>
-            <p> Mon-Fri <br> 9:00am - 7:00pm <br> Sat <br> 8:00am - 8:00pm </p>
+            <p tabindex="0"> Mon- Fri <br> 9:00am - 7:00pm <br> Sat <br> 8:00am - 8:00pm </p>
         </section>
+      </div>
         <br>
         <ul id="sitemap" aria-label="site navigation map">
           <li><a href="index.html" aria-current="page">home</a></li>
@@ -67,8 +69,6 @@
           <li><a href="tel:111-222-3333">call at 111-222-3333</a></li>
           <li><a href="https://www.google.com/maps?q=123+Main+Street,+Carrollton,+Georgia" target="_blank">Directions</a></li>
           <!--need apply here link-->
-
-          <!-- Sitemap (all links clustered together)-->
         </ul>
         <br>
         <p id="copyright"> Copyright &copy; 2026 A Dog's Life </p>
