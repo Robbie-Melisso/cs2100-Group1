@@ -48,13 +48,34 @@ section{
     width: 30%;
     padding-inline: 1rem;
 }
-#sitemap{
+footer{
+    border-top: 35px solid transparent;
+    border-image: linear-gradient(to bottom, skyblue 0%, #3e44ea 100%) 1;
+    padding-top: 10px;
+    color:#BEF3F4;
+    background-color: #3036B8;
+}
+footer #sitemap{
     clear: both;
 }
-#sitemap ul{
-    columns: 3; 
+footer #sitemap ul{
+    column-count: 3;
     padding-inline: 2rem;
 }
-#sitemap li{
+footer #sitemap li{
+    color: #BEF3F4;
     list-style-type:none;
+}
+footer #sitemap li a{
+    color: #BEF3F4;
+    text-decoration: none;
+}
+footer #sitemap li a:focus, footer #sitemap li a:hover{
+    color: orange;
+    text-decoration: underline;
+}
+footer #copyright{
+    font-style: italic;
+    clear: both;
+    text-align: center;
 }
