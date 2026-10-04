@@ -28,13 +28,17 @@ nav a:hover,a:focus{
     position: absolute;
     top: -200px;
     left: -300px;
-    padding: 5px 10px;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 10px 15px;
     color: blue;
-    background-color: lightgrey;
+    background-color: #fffaf0;
+    border-radius: 8px 8px 8px 8px;
+    border: blue 2px solid;
     text-decoration: none;
 }
 .Skip:focus{
-    color: orange;
+    color: #69480A;
     text-decoration: underline;
     top: 0px;
     left: 0px;
@@ -43,4 +47,12 @@ section{
     float: left;
     width: 30%;
     padding-inline: 1rem;
+}
+#sitemap{
+    clear: both;
+}
+#sitemap ul{
+    list-style-type:none;
+    columns: 3; 
+    padding-inline: 2rem;
 }
