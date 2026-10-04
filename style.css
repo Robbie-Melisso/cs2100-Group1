@@ -52,7 +52,9 @@ section{
     clear: both;
 }
 #sitemap ul{
-    list-style-type:none;
     columns: 3; 
     padding-inline: 2rem;
+}
+#sitemap li{
+    list-style-type:none;
 }
