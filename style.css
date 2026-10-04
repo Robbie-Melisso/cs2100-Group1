@@ -1,6 +1,16 @@
 body{
     background-color: #b0c4de;
 }
+h1 a{
+    position: relative;
+    text-decoration: none;
+    font-family: 'Litera', 'Unbounded', 'Bricolage Grotesque', 'Lora', 'Outfit', sans-serif;
+    top: 0.5rem;
+    left: 40%;
+    color:#9A450B;
+    font-size: 3rem;
+    text-align: center;
+}
 #wrapper{
     background-color: #87ceeb;
 }
@@ -12,7 +22,8 @@ nav{
 /* make for the desktop view, the nav links are in 4 columns, change for mobile view */
 nav ul{
     list-style-type:none;
-    columns: 4; 
+    columns: 4;
+    padding-left: 10em;
     padding-inline: 2rem;
 }
 nav a{
