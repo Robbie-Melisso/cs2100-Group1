@@ -1,9 +1,8 @@
 .Skip{
     /*hide link off screen until focused*/
     position: absolute;
-    /*change to beyond screen once working*/
-    top: 0px; /*move left and up*/
-    left: 0px;
+    top: -200px;
+    left: -300px;
     padding: 5px 10px;
     color: blue;
     background-color: lightgrey;
@@ -12,7 +11,6 @@
 .Skip:focus{
     color: orange;
     text-decoration: underline;
-    /*change position once working*/
     top: 0px;
     left: 0px;
 }
