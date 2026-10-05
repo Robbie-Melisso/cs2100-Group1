@@ -54,6 +54,14 @@ nav a:hover,a:focus{
     top: 0px;
     left: 0px;
 }
+#banner{
+    background-image: url('banner a dogs life.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    background-repeat: no-repeat;
+;
+}
 footer{
     clear: both;
     border-top: 35px solid transparent;
