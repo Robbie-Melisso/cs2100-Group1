@@ -93,10 +93,34 @@ footer #copyright{
     margin: 2px;
     grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
 }
-section{
+.info{
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    max-width: 1000px;
+}
+.contact-info h3, h4{
+    color: #EFEBED;
+}
+section.contact-info{
     float: left;
-    width: 30%;
+    display:flexbox;
+    padding: 20px;
+    margin: 3rem;
+    background-color: #715868;
+    clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
+    float: left;
+    width: 25%;
+    min-width: none;
+    width: max-content;
+    height: max-content;
     padding-inline: 1rem;
+}
+section.contact-info h3:first-of-type{
+    margin-left: 10%;
 }
 form{
     background-color: #20b2aa;
