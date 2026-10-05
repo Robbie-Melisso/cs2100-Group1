@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title> A Dog's Life - Book Now </title>
+<title> A Dog's Life - Contact Us </title>
 <meta charset="utf-8">
 <link rel="stylesheet" href="style.css">
 </head>
@@ -13,29 +13,34 @@
     <header><h1><a href="index.html" aria-current="page" tabindex="-1"> A Dog's Life </a></h1></header>
     <nav tabindex="3">
       <ul>
-        <li><a href="index.html"> Home </a></li>
-         <li><a href="services.html"> Services </a></li>
-         <li><a href="contact.html"> Contact Us </a></li>
-         <li><a href="book.html"> Book Now </a></li>
+        <li><a href="index.html" aria-current="page"> Home </a></li>
+        <li><a href="services.html"> Services </a></li>
+        <li><a href="contact.html"> Contact Us </a></li>
+        <li><a href="book.html"> Book Now </a></li>
       </ul>
     </nav>
     <div id="banner" tabindex="0" role="img" aria-label="two smiling puppies"></div>
-<form tabindex="0">
-    <label for="myName"> *Your Name: </label>
-	    <input type="text" name="myName" id="myName" required placeholder="Your full name">
-    <label for="myEmail"> *E-mail: </label>
-	    <input type="email" name="myEmail" id="myEmail" required placeholder="you@yourdomain.com">
-    <label for="myPhone"> Phone: </label>
-      <input type="tel" name="myPhone" id="myPhone">
-    <label for="myDate"> *Date: </label>
-      <input type="date" name="myDate" id="myDate" required placeholder="The day you wish to come in">
-    <label for="myComment"> Comments: </label>
-      <textarea name="myComments" id="myComments" rows="2" cols="20">
-      </textarea>
-    <input type="submit" value="Submit">
-</form>
-    
-  <footer>
+    <main id="main">
+      <h2 tabindex="0" style="margin-left: 20px;"> You can contact us using the following information: </h2>
+      <div id="info">
+      <section class="contact-info">
+        <h3 tabindex="0"> Address:</h3><br>
+        <h4 tabindex="0"> 123 Main Street <br>
+           Carrollton, Georgia </h4>
+      </section>
+      <section class="contact-info">
+      <h3 tabindex="0"> Phone Number / E-mail: </h3>
+      <h4 tabindex="0"> 111-222-3333 <br> adogslife@example.com </h4>
+    </section>
+    <section class="contact-info" id="hours">
+      <h3 tabindex="0"> Business Hours: </h3>
+      <h4 tabindex="0"> Monday -Fri <br>
+         9:00am - 7:00pm <br> Sat
+          <br> 8:00am - 8:00pm </h4>
+      </section>
+      </div>
+      </main>
+    <footer>
         <ul id="sitemap" class="responsive-grid" aria-label="site navigation map">
           <li><a href="index.html" aria-current="page">home</a></li>
           <li><a href="services.html">services</a></li>
